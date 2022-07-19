@@ -15,4 +15,4 @@ module.o: test.c
 
 clean:
 	rm -rf *.o
-	rm target_bin
+	rm go
