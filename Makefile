@@ -1,5 +1,5 @@
-CC="gcc"
-#CC = i586-poky-linux-gcc -m32 -march=i586 --sysroot=/opt/poky/2.5/sysroots/i586-poky-linux
+#CC="gcc"
+CC = i586-poky-linux-gcc -m32 -march=i586 --sysroot=/opt/poky/2.5/sysroots/i586-poky-linux
 
 install: main.o test.o
 	${CC} main.o test.o -o lancement
